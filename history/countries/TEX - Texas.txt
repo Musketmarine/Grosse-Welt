@@ -63,6 +63,11 @@ add_ideas = {
 
 }
 
+declare_war_on = {
+	target = MEX
+	type = annex_everything
+}
+
 create_country_leader = {
 	name = "Richard Königsberg"
 	desc = "POLITICS_RICHARD_KONIGSBERG_DESC"
