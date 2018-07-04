@@ -9,6 +9,8 @@ tags={
 supported_version="1.5.4"
 
 replace_path = "history/countries"
+replace_path = "gfx/flags"
+replace_path = "gfx/loadingscreens"
 replace_path = "common/national_focus"
 replace_path = "common/scripted_triggers"
 replace_path = "common/ideas"
