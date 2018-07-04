@@ -37,6 +37,25 @@
  ISA_syndicalist_DEF:0 "The Imperial Syndicates"
  ISA_syndicalist_ADJ:0 "American"
  
+ CSA_fascism:0 "Confederal Empire"
+ CSA_fascism_DEF:0 "The Confederal Empire"
+ CSA_fascism_ADJ:0 "Confederate American"
+ CSA_democratic:0 "Confederate States"
+ CSA_democratic_DEF:0 "Confederate American"
+ CSA_democratic_ADJ:0 "Confederate American"
+ CSA_communism:0 "Confederation of Socialist Republics"
+ CSA_communism_DEF:0 "The Confederation of Socialist Republics"
+ CSA_communism_ADJ:0 "Confederate American"
+ CSA_anocratic:0 "Unitary Confederate State"
+ CSA_anocratic_DEF:0 "The Unitary Confederate State"
+ CSA_anocratic_ADJ:0 "Confederate American"
+ CSA_neutrality:0 "Confederate States"
+ CSA_neutrality_DEF:0 "The Confederate States"
+ CSA_neutrality_ADJ:0 "Confederate American"
+ CSA_syndicalist:0 "Confederate Syndicate"
+ CSA_syndicalist_DEF:0 "The Confederate Syndicate"
+ CSA_syndicalist_ADJ:0 "Confederate American"
+ 
  MEX_fascism:0 "Sinarquía de México"
  MEX_fascism_DEF:0 "La Sinarquía de México"
  MEX_fascism_ADJ:0 "Mexican"
@@ -55,3 +74,5 @@
  MEX_syndicalist:0 "Zapatistas México"
  MEX_syndicalist_DEF:0 "Zapatistas México"
  MEX_syndicalist_ADJ:0 "Mexican"
+ 
+ 
