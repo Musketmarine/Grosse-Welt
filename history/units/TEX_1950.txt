@@ -1,0 +1,142 @@
+﻿division_template = {
+	name = "Infantry Division"	# For largest Military District Forces (3 brigade forces)
+	# Note: all forces at reserve levels in 1936
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+		infantry = { x = 1 y = 2 }
+		infantry = { x = 2 y = 0 }
+		infantry = { x = 2 y = 1 }
+		infantry = { x = 2 y = 2 }
+	}
+	support = {
+		artillery = { x = 0 y = 0 }  # US Hvy Field Arty consisted of 2 Bns, 155mm howitzers
+		engineer = { x = 0 y = 1 }   # US Eng Rgt consisted of 2 Bns
+	}
+}
+
+division_template = {
+	name = "Mountaineer Division"
+
+	regiments = {
+		mountaineers = { x = 0 y = 0 }
+		mountaineers = { x = 0 y = 1 }
+		mountaineers = { x = 0 y = 2 }
+		mountaineers = { x = 1 y = 0 }
+		mountaineers = { x = 1 y = 1 }
+		mountaineers = { x = 1 y = 2 }
+		mountaineers = { x = 2 y = 0 }
+		mountaineers = { x = 2 y = 1 }
+		mountaineers = { x = 2 y = 2 }
+	}
+	support = {
+		artillery = { x = 0 y = 0 }  # US Hvy Field Arty consisted of 2 Bns, 155mm howitzers
+		engineer = { x = 0 y = 1 }   # US Eng Rgt consisted of 2 Bns
+	}
+}
+
+division_template = {
+	name = "Chaffee Division"
+
+	regiments = {
+		light_armor = { x = 0 y = 0 }
+		light_armor = { x = 0 y = 1 }
+		light_armor = { x = 0 y = 2 }
+	}
+	support = {
+		engineer = { x = 0 y = 0 }   # US Eng Rgt consisted of 2 Bns
+	}
+}
+
+units = {
+	division= {
+		name = "1st 'Eye of the Coahuila' Mountaineers Division"
+		location = 12835
+		division_template = "Mountaineer Division"
+		start_experience_factor = 0.5
+	}
+	
+	division= {
+		name = "2nd 'Pax Texica' Mountaineers Division"
+		location = 10746
+		division_template = "Mountaineer Division"
+		start_experience_factor = 0.5
+	}
+	
+	division= {
+		name = "3rd 'Muckhikers' Mountaineers Division"
+		location = 10800
+		division_template = "Mountaineer Division"
+		start_experience_factor = 0.5
+	}
+	
+	division= {
+		name = "4th 'New Mexico' Mountaineers Division"
+		location = 12850
+		division_template = "Mountaineer Division"
+		start_experience_factor = 0.5
+	}
+	
+	division= {
+		name = "5th 'Rockfoot' Mountaineers Division"
+		location = 10916
+		division_template = "Mountaineer Division"
+		start_experience_factor = 0.5
+	}
+	
+	division= {
+		name = "6th 'Rio Grande' Infantry Division"
+		location = 4898
+		division_template = "Infantry Division"
+		start_experience_factor = 0.5
+	}
+	
+	division= {
+		name = "15th 'Houston' Infantry Division"
+		location = 10769
+		division_template = "Infantry Division"
+		start_experience_factor = 0.5
+	}
+	
+	division= {
+		name = "16th 'De Zavala' Infantry Division"
+		location = 4977
+		division_template = "Infantry Division"
+		start_experience_factor = 0.5
+	}
+
+	division= {
+		name = "10th 'McChaffee' Airborne Light Tank Division"
+		location = 7935
+		division_template = "Chaffee Division"
+		start_experience_factor = 0.5
+	}
+	division= {
+		name = "11th 'Austin' Airborne Light Tank Division"
+		location = 13088
+		division_template = "Chaffee Division"
+		start_experience_factor = 0.5
+	}
+	division= {
+		name = "12th 'Heart of Texas' Airborne Light Tank Division"
+		location = 2060
+		division_template = "Chaffee Division"
+		start_experience_factor = 0.5
+	}
+	#We are going to need to add the tanks in here soon, oh and power armor
+}
+
+instant_effect = {
+	add_equipment_production = {
+		equipment = {
+			type = infantry_equipment_1
+			creator = "TEX"
+		}
+		requested_factories = 2
+		progress = 0.9
+		efficiency = 100
+	}
+}

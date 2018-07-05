@@ -1,6 +1,6 @@
 ﻿capital = 375
 
-#oob = "TEX_1950"
+oob = "TEX_1950"
 
 set_research_slots = 4
 set_stability = 0.75
@@ -77,4 +77,28 @@ create_country_leader = {
 	traits = {
 
 	}
+}
+
+create_field_marshal = {
+	name = "Richard Königsberg"
+	picture = "Portrait_TEX_Richard_Konigsberg.dds"
+	traits = { logistics_wizard organizer offensive_doctrine trait_cautious armor_officer politically_connected }
+	skill = 5
+#	id = 602
+	attack_skill = 3
+	defense_skill = 3
+	planning_skill = 5
+	logistics_skill = 5
+}
+
+create_corps_commander = {
+	name = "Bernard Sawyers"
+	picture = "Portrait_TEX_Bernard_Sawyers.dds"
+	traits = { infantry_officer career_officer }
+	skill = 1 
+#	id = 601
+	attack_skill = 1
+	defense_skill = 1
+	planning_skill = 1
+	logistics_skill = 1
 }
