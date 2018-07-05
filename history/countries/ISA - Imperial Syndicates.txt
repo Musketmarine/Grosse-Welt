@@ -67,12 +67,29 @@ add_ideas = {
 
 }
 
+create_faction = "Triad Defense Initiative"
+add_to_faction = ISA
+add_to_faction = TEX
+add_to_faction = JAP
+
+
 create_country_leader = {
 	name = "Empress Alexia I"
 	desc = "POLITICS_ALEXIA_I_DESC"
 	picture = "Portrait_ISA_Alexia_I.dds"
 #	expire = "1947.1.1"
 	ideology = syndicatlism
+	traits = {
+
+	}
+}
+
+create_country_leader = {
+	name = "John Madden"
+	desc = "POLITICS_JOHN_MADDEN_DESC"
+	picture = "Portrait_ISA_John_Madden.dds"
+#	expire = "1947.1.1"
+	ideology = conservatism
 	traits = {
 
 	}
